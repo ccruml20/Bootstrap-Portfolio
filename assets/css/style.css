@@ -29,12 +29,16 @@ body {
 .imgStyle {
 	padding: 20px 40px 30px 40px;
 	border-bottom: #71bc9a;
-	/*max-width: 760px;*/
+/*	max-width: 760px;*/
 	font-size: 20px;
 	margin: 0px 0px 40px 0px;
 
 }
+.imgStyle2 img {
+	float: left;
+/*	margin: 0px 20px 20px 20px;*/
 
+}
 .contentstyle {
 	position: relative;
 	padding-bottom: 10px;
@@ -70,14 +74,18 @@ body {
 	width: 100%;
 
 }
-/*.rightStyle {
-  max-width: 400px;
-    min-width: 112px;
-    margin-left: 120px;
-    margin-bottom: 200px;
-	text-align: center;
+.rightStyle img  {
+	margin: 15px;
+	max-width: 60px;
 }
-.leftStyle {
+.imgStyle1 {
+	background-color: #fff;
+	max-width: 600px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+
+}
+/*.leftStyle {
     max-width: 400px;
     min-width: 112px;
     margin-left: 120px;
@@ -89,7 +97,24 @@ body {
     min-width: 112px;
     margin-left: 259px;
     margin-bottom: 400px;
-    text-align: center;*/
-}
+    text-align: center;
+}*/
 #imgStyle {
+}
+#port {
+	text-align: center;
+}
+@media(max-width: 991px) {
+	.rightStyle {
+		margin: 0px;
+		padding: 0px
+		width: 100%;
+	}
+}
+@media(max-width: 991px) {
+	.imgStyle img {
+		margin: 0px;
+		padding: 0px
+		max-width: 600px;
+	}
 }
