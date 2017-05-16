@@ -83,10 +83,10 @@ body {
 }
 .carousel-caption {
 	position: absolute;
-background-color: #f1f0ee;
-    margin: 11px -53px;
+	background-color: #f1f0ee;
+    margin: 11px -54px;
     padding: 0px 0px 0px 0px;
-    width: 91.5%;
+    width: 100%;
 
 }
 .rightStyle img  {
@@ -99,6 +99,24 @@ background-color: #f1f0ee;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 
+}
+.bannerCreate {
+    width: 100%;
+    height:25px;
+    background-color: #4AAAA5;
+    opacity: 0.95;
+    filter: alpha(opacity:95);
+    z-index: 99;
+    position:relative;
+    bottom:50px;  
+}
+.bannerCreate p {
+    color: #fff;
+    z-index: 99;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    
 }
 .crop {
     max-width: 3000px;
